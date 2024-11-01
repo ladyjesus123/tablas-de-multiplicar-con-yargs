@@ -6,7 +6,7 @@ const PDFDocument = require('pdfkit');
 base= numero base de la tabla multiplicar
 listar= que es tipo booleano
 hasta= que es hasta que numero multiplica la base 
-limite= hasta que tabla se exportara en el archivo txt
+limite= hasta que tabla se crearan se exportara en el archivo txt
 */
 const crearArchivo = async (base = 5, listar = false, hasta, limite) => {
     try {
